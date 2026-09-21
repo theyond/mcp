@@ -6,7 +6,7 @@ The connector is [https://theyond.com/mcp](https://theyond.com/mcp). Free. No si
 
 Add that URL to Claude, Gemini, Grok, ChatGPT, Cursor, or any client that speaks streamable HTTP. `POST` is the JSON-RPC server. A browser `GET` is the human page. JSON `GET` is 405 on purpose.
 
-People apply on the theyond.com job page. The tools never return an employer apply link. Always show the theyond URL.
+Hit Apply on the theyond.com job page. That sends you to the employer. The tools never return an employer apply link. Always show the theyond URL.
 
 ## What you can ask
 
@@ -14,7 +14,7 @@ People apply on the theyond.com job page. The tools never return an employer app
 - “Find data scientist jobs in Toronto”
 - “Staff software engineer roles in San Francisco”
 - “Remote machine learning jobs”
-- “Open the theyond page for that job so I can apply”
+- “Open the theyond page so I can hit Apply”
 
 Search or `hiring_now` first. Then `get_job` for the one they picked.
 
