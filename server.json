@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theyond/jobs",
+  "title": "Theyond",
+  "description": "Live jobs from employer career pages. Read-only. People apply on theyond.com.",
+  "version": "1.0.0",
+  "websiteUrl": "https://theyond.com",
+  "repository": {
+    "url": "https://github.com/theyond/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theyond.com/mcp"
+    }
+  ]
+}
